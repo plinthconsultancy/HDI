@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PLINTH HDI™ — Human Development Intelligence</title>
+<meta name="description" content="PLINTH HDI™ is a scientifically governed, longitudinal developmental intelligence platform — interpreting how learners grow, adapt, and regulate over time. Developmental signals, not diagnosis." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="PLINTH HDI home">
+      <img class="brand__mark" src="assets/logo-mark.png" alt="" />
+      <span class="brand__word">PLINTH<span class="hdi">HDI</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#what">What It Is</a>
+      <a href="#engine">Intelligence Engine</a>
+      <a href="#domains">Domains</a>
+      <a href="#governance">Governance</a>
+      <a href="#dossier">The Dossier</a>
+      <a class="nav__cta" href="#access">Request Access</a>
+    </nav>
+    <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ 1 · HERO ============ -->
+<section class="section hero" data-screen-label="Hero">
+  <div class="wrap">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <div class="eyebrow hero__eyebrow reveal">Human Development Intelligence™</div>
+        <h1 class="display reveal" data-d="1">Human Growth,<br />Interpreted<br />With Care.</h1>
+        <p class="lead hero__sub reveal" data-d="2">A scientifically governed developmental intelligence platform for students, parents, educators, and institutions — built to read how a learner evolves, not to label who they are.</p>
+        <div class="btn-row reveal" data-d="3">
+          <a class="btn btn--primary" href="#what">Explore PLINTH HDI <span class="arr">→</span></a>
+          <a class="btn btn--ghost" href="#engine">View Intelligence Framework</a>
+        </div>
+        <div class="hero__meta reveal" data-d="4">
+          <div class="stat"><b>Longitudinal</b><span>Years, not moments</span></div>
+          <div class="stat"><b>Non-diagnostic</b><span>By design, by ethic</span></div>
+          <div class="stat"><b>Human-governed</b><span>Every interpretation</span></div>
+        </div>
+      </div>
+      <div class="hero__visual reveal" data-d="2">
+        <svg id="heroRadar" class="radar" role="img" aria-label="Developmental intelligence radar across five domains"></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2 · WHAT IS PLINTH HDI ============ -->
+<section class="section" id="what" data-screen-label="What It Is">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">What Is PLINTH HDI</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">A longitudinal system for understanding human development.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">PLINTH HDI synthesises multi-source observation — across cognition, motivation, emotion, adaptation, and environment — into developmental insight that deepens over years. It does not score a child. It interprets a trajectory.</p>
+    </div>
+
+    <div class="statements">
+      <div class="statement reveal">
+        <span class="statement__idx">01</span>
+        <p class="statement__txt"><span class="neg">Not labels.</span> <span class="pos">Developmental signals.</span></p>
+      </div>
+      <div class="statement reveal">
+        <span class="statement__idx">02</span>
+        <p class="statement__txt"><span class="neg">Not prediction.</span> <span class="pos">Interpretation.</span></p>
+      </div>
+      <div class="statement reveal">
+        <span class="statement__idx">03</span>
+        <p class="statement__txt"><span class="neg">Not diagnosis.</span> <span class="pos">Human-guided developmental intelligence.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 · INTELLIGENCE ENGINE (dark) ============ -->
+<section class="section section--dark" id="engine" data-screen-label="Intelligence Engine">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">The Intelligence Engine</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">PIC™ and CIDI-F™ — interpretation built with restraint.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">Two governed cores work in sequence. PIC™ synthesises signals from many sources; CIDI-F™ calibrates them against confidence, context, and ethics — and knows when to hold back.</p>
+    </div>
+
+    <div class="engine__diagram reveal" data-d="1">
+      <svg class="engine-svg" viewBox="0 0 1120 320" role="img" aria-label="System diagram: multi-source inputs synthesised by PIC into confidence-calibrated interpretation by CIDI-F, under human review, producing developmental signals">
+        <defs>
+          <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#F6C23A"/><stop offset="1" stop-color="#CE8313"/>
+          </linearGradient>
+        </defs>
+        <!-- input labels + dots -->
+        <g font-family="'Hanken Grotesk',sans-serif" fill="#9AA6B4" font-size="13" font-weight="500">
+          <text x="36" y="92">Observations</text>
+          <text x="36" y="166">Context</text>
+          <text x="36" y="240">Longitudinal history</text>
+        </g>
+        <g>
+          <circle cx="150" cy="86" r="5" fill="#E7A329"/>
+          <circle cx="150" cy="160" r="5" fill="#E7A329"/>
+          <circle cx="150" cy="234" r="5" fill="#E7A329"/>
+        </g>
+        <!-- input flows to PIC -->
+        <g fill="none" stroke="#E7A329" stroke-width="1.4" opacity="0.65">
+          <path class="flow" d="M150 86 C 230 86, 250 160, 320 160"/>
+          <path class="flow" d="M150 160 L 320 160"/>
+          <path class="flow" d="M150 234 C 230 234, 250 160, 320 160"/>
+        </g>
+        <!-- PIC node -->
+        <g>
+          <rect x="322" y="112" width="190" height="96" rx="3" fill="rgba(255,255,255,0.04)" stroke="url(#gold)" stroke-width="1.4"/>
+          <circle class="ping" cx="342" cy="132" r="4" fill="#F6C23A"/>
+          <circle class="node-core" cx="342" cy="132" r="4" fill="#F6C23A"/>
+          <text x="346" y="158" font-family="'Hanken Grotesk',sans-serif" fill="#fff" font-size="26" font-weight="700">PIC™</text>
+          <text x="346" y="182" font-family="'Hanken Grotesk',sans-serif" fill="#9AA6B4" font-size="12.5" font-weight="500">Multi-Source Synthesis</text>
+        </g>
+        <!-- flow PIC -> CIDI -->
+        <path class="flow" d="M512 160 L 620 160" fill="none" stroke="#E7A329" stroke-width="1.6"/>
+        <!-- human review gate -->
+        <g>
+          <rect x="638" y="22" width="154" height="56" rx="3" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="1" stroke-dasharray="4 4"/>
+          <text x="652" y="48" font-family="'Hanken Grotesk',sans-serif" fill="#E9E6DD" font-size="13" font-weight="600">Human Review</text>
+          <text x="652" y="66" font-family="'Hanken Grotesk',sans-serif" fill="#9AA6B4" font-size="11">Oversight gate</text>
+          <path d="M712 78 L 712 112" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1" stroke-dasharray="4 4"/>
+        </g>
+        <!-- CIDI node -->
+        <g>
+          <rect x="622" y="112" width="232" height="96" rx="3" fill="rgba(255,255,255,0.04)" stroke="url(#gold)" stroke-width="1.4"/>
+          <circle class="ping" cx="642" cy="132" r="4" fill="#F6C23A"/>
+          <circle class="node-core" cx="642" cy="132" r="4" fill="#F6C23A"/>
+          <text x="646" y="158" font-family="'Hanken Grotesk',sans-serif" fill="#fff" font-size="24" font-weight="700">CIDI-F™</text>
+          <text x="646" y="182" font-family="'Hanken Grotesk',sans-serif" fill="#9AA6B4" font-size="11.5" font-weight="500">Confidence-Indexed Interpretation</text>
+        </g>
+        <!-- flow CIDI -> output -->
+        <path class="flow" d="M854 160 L 980 160" fill="none" stroke="#E7A329" stroke-width="1.6"/>
+        <!-- output -->
+        <g>
+          <circle class="ping" cx="996" cy="160" r="7" fill="#F6C23A"/>
+          <circle cx="996" cy="160" r="7" fill="#F6C23A"/>
+          <text x="1010" y="156" font-family="'Hanken Grotesk',sans-serif" fill="#fff" font-size="13.5" font-weight="600">Developmental</text>
+          <text x="1010" y="174" font-family="'Hanken Grotesk',sans-serif" fill="#fff" font-size="13.5" font-weight="600">signal</text>
+        </g>
+      </svg>
+    </div>
+
+    <div class="safeguards">
+      <div class="safeguard reveal"><div class="safeguard__n">01</div><h4>Confidence calibration</h4><p>Every interpretation carries a measured confidence. Low certainty is surfaced, never smoothed over.</p></div>
+      <div class="safeguard reveal" data-d="1"><div class="safeguard__n">02</div><h4>Interpretive restraint</h4><p>The system is engineered to say less when evidence is thin — restraint is a feature, not a failure.</p></div>
+      <div class="safeguard reveal" data-d="2"><div class="safeguard__n">03</div><h4>Developmental ethics</h4><p>A standing ethical frame governs what may be inferred about a developing human, and what must not.</p></div>
+      <div class="safeguard reveal"><div class="safeguard__n">04</div><h4>Human review safeguards</h4><p>Sensitive interpretations pass through human oversight before they ever reach a parent or educator.</p></div>
+      <div class="safeguard reveal" data-d="1"><div class="safeguard__n">05</div><h4>Anti-overreach systems</h4><p>Hard limits prevent the engine from drifting toward diagnosis, prediction, or fixed judgement.</p></div>
+      <div class="safeguard reveal" data-d="2"><div class="safeguard__n">06</div><h4>Multi-source synthesis</h4><p>No single observation defines a learner. Signals are triangulated across context and time.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 · DEVELOPMENTAL DOMAINS ============ -->
+<section class="section" id="domains" data-screen-label="Developmental Domains">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">Developmental Domains</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">Five intelligences, read together.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">Development is not one dimension. PLINTH HDI interprets five interrelated intelligences — and how they shift across context and time.</p>
+    </div>
+
+    <div class="domains__layout reveal" data-d="1">
+      <div class="domain-list" role="tablist" aria-label="Developmental domains">
+        <button class="domain-tab" role="tab" aria-selected="false"><span class="domain-tab__n">01</span><span class="domain-tab__t">Cognitive Intelligence</span><span class="domain-tab__dot"></span></button>
+        <button class="domain-tab" role="tab" aria-selected="false"><span class="domain-tab__n">02</span><span class="domain-tab__t">Motivational Intelligence</span><span class="domain-tab__dot"></span></button>
+        <button class="domain-tab" role="tab" aria-selected="false"><span class="domain-tab__n">03</span><span class="domain-tab__t">Emotional–Social Intelligence</span><span class="domain-tab__dot"></span></button>
+        <button class="domain-tab" role="tab" aria-selected="false"><span class="domain-tab__n">04</span><span class="domain-tab__t">Adaptive Intelligence</span><span class="domain-tab__dot"></span></button>
+        <button class="domain-tab" role="tab" aria-selected="false"><span class="domain-tab__n">05</span><span class="domain-tab__t">Environmental Intelligence</span><span class="domain-tab__dot"></span></button>
+      </div>
+      <div class="domain-panel" id="domainPanel" role="tabpanel">
+        <div class="domain-panel__inner"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5 · SCIENTIFIC GOVERNANCE ============ -->
+<section class="section" id="governance" data-screen-label="Scientific Governance">
+  <div class="wrap">
+    <div class="gov__layout">
+      <div>
+        <div class="eyebrow reveal">Scientific Governance</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px;max-width:14ch">Designed to know where interpretation must stop.</h2>
+        <p class="lead reveal" data-d="2" style="margin-top:28px">The hardest part of developmental intelligence is restraint. PLINTH HDI is governed by principles that decide, continuously, how far interpretation is allowed to go.</p>
+      </div>
+      <div class="gov__lines reveal" data-d="1">
+        <div class="gov__line"><h4>Confidence-aware reasoning</h4><p>The system weighs how much it knows before it says anything at all.</p></div>
+        <div class="gov__line"><h4>Non-diagnostic philosophy</h4><p>PLINTH HDI never assigns clinical or fixed categories to a developing child.</p></div>
+        <div class="gov__line"><h4>Contextual interpretation</h4><p>Every signal is read inside its environment — context before trait.</p></div>
+        <div class="gov__line"><h4>Human oversight</h4><p>People remain accountable for what is interpreted and how it is shared.</p></div>
+        <div class="gov__line"><h4>Openness preservation</h4><p>Interpretations stay revisable — a child is never closed into a conclusion.</p></div>
+        <div class="gov__line"><h4>Anti-coherence safeguards</h4><p>Guards against over-tidy narratives that feel certain but aren't earned.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6 · DOSSIER EXPERIENCE (dark) ============ -->
+<section class="section section--dark" id="dossier" data-screen-label="The Dossier">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">The Dossier Experience</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">A confidential developmental record.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">The PLINTH Human Development Intelligence Dossier is research-grade and private — radar maps, developmental narratives, growth pathways, and parent guidance, evolving across years.</p>
+    </div>
+
+    <div class="dossier__frame reveal" data-d="1">
+      <div class="dossier__bar">
+        <span class="lbl">PLINTH HDI™ · Developmental Dossier</span>
+        <span class="confid"><span class="pulse"></span>Confidential Preview</span>
+      </div>
+      <div class="dossier__body">
+        <div class="dossier__col">
+          <h5>Intelligence Map</h5>
+          <svg id="dossierRadar" class="dossier__radar" role="img" aria-label="Developmental radar map across five domains"></svg>
+          <div class="dossier__bars">
+            <div class="dbar"><div class="dbar__top"><span>Confidence index</span><span>High</span></div><div class="dbar__track"><div class="dbar__fill" data-w="84%"></div></div></div>
+            <div class="dbar"><div class="dbar__top"><span>Longitudinal depth</span><span>3.5 years</span></div><div class="dbar__track"><div class="dbar__fill" data-w="68%"></div></div></div>
+            <div class="dbar"><div class="dbar__top"><span>Context coverage</span><span>Multi-setting</span></div><div class="dbar__track"><div class="dbar__fill" data-w="76%"></div></div></div>
+          </div>
+        </div>
+        <div class="dossier__col" style="position:relative">
+          <h5>Developmental Narrative</h5>
+          <div class="dossier__narr">
+            <p>Across the past eighteen months, this learner has shown a deepening capacity to hold ambiguity without disengaging. Where earlier observations suggested withdrawal under friction, more recent context indicates a developing strategy of pause-and-reframe — most visible in collaborative settings.</p>
+            <p>Motivational signals remain environment-sensitive. Curiosity rises markedly when problems are framed openly rather than as performance. We interpret this as a developing orientation toward mastery, held with moderate confidence and pending further longitudinal observation.</p>
+            <p>Emotional–social regulation is interpreted as on a steady, non-linear upward trajectory. This is a signal, not a verdict, and should be read alongside the guidance pathways that follow.</p>
+          </div>
+          <div class="dossier__lock">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="10" width="16" height="11" rx="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+            <p>Full narratives, growth pathways, and parent guidance are released only to verified guardians and institutions.</p>
+            <a class="btn btn--primary" href="#access" style="margin-top:6px">Request Institutional Access <span class="arr">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7 · WHO IT SERVES ============ -->
+<section class="section" id="who" data-screen-label="Who It Serves">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">Who It Serves</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">One trajectory, many vantage points.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">The same developmental record speaks differently to each person who holds responsibility for a learner's growth.</p>
+    </div>
+
+    <div class="aud-grid reveal" data-d="1">
+      <div class="aud"><div class="aud__n">01</div><h4>Students</h4><p>A mirror for self-understanding — strengths and growth seen as a journey, never a label.</p></div>
+      <div class="aud"><div class="aud__n">02</div><h4>Parents</h4><p>Calm, contextual guidance on how to support development — without judgement or jargon.</p></div>
+      <div class="aud"><div class="aud__n">03</div><h4>Educators</h4><p>Signals that inform teaching with nuance, while respecting the limits of interpretation.</p></div>
+      <div class="aud"><div class="aud__n">04</div><h4>Schools</h4><p>A longitudinal, ethically governed view of development across cohorts and years.</p></div>
+      <div class="aud"><div class="aud__n">05</div><h4>Researchers</h4><p>Rigorous, privacy-first developmental data infrastructure built for responsible study.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8 · LONGITUDINAL VISION ============ -->
+<section class="section" id="longitudinal" data-screen-label="Longitudinal Vision">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">The Longitudinal Vision</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">Not an assessment. A continuum.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">PLINTH HDI is not a one-time test. It evolves with the learner — each year adding depth, context, and confidence to an interpretation that is never finished.</p>
+    </div>
+
+    <div class="long__track reveal" data-d="1">
+      <div class="long__node"><div class="long__yr">YEAR 1</div><h4>Baseline signals</h4><p>First multi-source observations form an early, low-confidence picture.</p></div>
+      <div class="long__node"><div class="long__yr">YEAR 2</div><h4>Pattern emergence</h4><p>Trajectories begin to separate from noise as context accumulates.</p></div>
+      <div class="long__node"><div class="long__yr">YEAR 3</div><h4>Contextual depth</h4><p>Interpretation matures; confidence rises where evidence supports it.</p></div>
+      <div class="long__node"><div class="long__yr">YEAR 4</div><h4>Adaptive insight</h4><p>The record reflects how the learner reorganises and recovers over time.</p></div>
+      <div class="long__node"><div class="long__yr">YEAR 5+</div><h4>Developmental arc</h4><p>A living, revisable arc of growth — always open, never concluded.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9 · TRUST & TRANSPARENCY (dark) ============ -->
+<section class="section section--ink" id="trust" data-screen-label="Trust & Transparency">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow reveal">Trust &amp; Transparency</div>
+        <h2 class="h2 reveal" data-d="1" style="margin-top:24px">Principles we will not trade away.</h2>
+      </div>
+      <p class="lead head__lead reveal" data-d="2">These commitments are not marketing. They are constraints engineered into the platform itself.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="trust reveal"><div class="trust__n">01</div><h4>Developmental intelligence, not diagnosis</h4></div>
+      <div class="trust reveal" data-d="1"><div class="trust__n">02</div><h4>Signals, not verdicts</h4></div>
+      <div class="trust reveal" data-d="2"><div class="trust__n">03</div><h4>Human-governed AI</h4></div>
+      <div class="trust reveal" data-d="3"><div class="trust__n">04</div><h4>Context before trait</h4></div>
+      <div class="trust reveal" data-d="4"><div class="trust__n">05</div><h4>Confidence-calibrated interpretation</h4></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 · FINAL CTA (dark) ============ -->
+<section class="section section--dark final" id="access" data-screen-label="Final CTA">
+  <div class="final__bg" aria-hidden="true">
+    <svg viewBox="0 0 600 600">
+      <g fill="none" stroke="rgba(231,163,41,0.5)" stroke-width="1">
+        <polygon points="300,90 482,222 413,436 187,436 118,222"/>
+        <polygon points="300,150 432,246 382,402 218,402 168,246"/>
+        <polygon points="300,210 382,270 351,366 249,366 218,270"/>
+      </g>
+      <line x1="300" y1="300" x2="300" y2="90" stroke="rgba(231,163,41,0.3)"/>
+      <line x1="300" y1="300" x2="482" y2="222" stroke="rgba(231,163,41,0.3)"/>
+      <line x1="300" y1="300" x2="413" y2="436" stroke="rgba(231,163,41,0.3)"/>
+      <line x1="300" y1="300" x2="187" y2="436" stroke="rgba(231,163,41,0.3)"/>
+      <line x1="300" y1="300" x2="118" y2="222" stroke="rgba(231,163,41,0.3)"/>
+    </svg>
+  </div>
+  <div class="wrap final__inner">
+    <div class="eyebrow eyebrow--center reveal" style="justify-content:center">The Future, Governed</div>
+    <h2 class="reveal" data-d="1" style="margin-top:26px">The Future Of Human Development Intelligence.</h2>
+    <div class="btn-row reveal" data-d="2">
+      <a class="btn btn--primary" href="#">Request Institutional Access <span class="arr">→</span></a>
+      <a class="btn btn--ghost" href="#what">Explore PLINTH HDI</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="brand">
+          <img class="brand__mark" src="assets/logo-mark.png" alt="" />
+          <span class="brand__word">PLINTH<span class="hdi">HDI</span></span>
+        </div>
+        <p>Human Development Intelligence — a scientifically governed infrastructure for interpreting how learners grow over time.</p>
+      </div>
+      <div class="footer__col">
+        <h5>Platform</h5>
+        <a href="#engine">Intelligence Engine</a>
+        <a href="#domains">Developmental Domains</a>
+        <a href="#dossier">The Dossier</a>
+        <a href="#governance">Governance</a>
+      </div>
+      <div class="footer__col">
+        <h5>Company</h5>
+        <a href="#">About</a>
+        <a href="#">Research</a>
+        <a href="#">Ethics Charter</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer__col">
+        <h5>Access</h5>
+        <a href="#who">For Institutions</a>
+        <a href="#who">For Educators</a>
+        <a href="#access">Request Access</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer__bot">
+      <span class="tm">© 2026 PLINTH HDI™. Human Development Intelligence™. All rights reserved.</span>
+      <span class="tm">Developmental signals, not diagnosis.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+
+<template id="__bundler_thumbnail" data-bg-color="#0C1A2E">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(600,400)" fill="none" stroke="#E7A329" stroke-width="6">
+      <polygon points="0,-220 209,-68 129,178 -129,178 -209,-68"/>
+      <polygon points="0,-147 139,-45 86,119 -86,119 -139,-45"/>
+    </g>
+    <g transform="translate(600,400)" stroke="rgba(231,163,41,0.4)" stroke-width="3">
+      <line x1="0" y1="0" x2="0" y2="-220"/>
+      <line x1="0" y1="0" x2="209" y2="-68"/>
+      <line x1="0" y1="0" x2="129" y2="178"/>
+      <line x1="0" y1="0" x2="-129" y2="178"/>
+      <line x1="0" y1="0" x2="-209" y2="-68"/>
+    </g>
+    <polygon transform="translate(600,400)" points="0,-180 150,-49 100,120 -90,140 -160,-52" fill="rgba(246,194,58,0.18)" stroke="#F6C23A" stroke-width="5" stroke-linejoin="round"/>
+  </svg>
+</template>
+
+</body>
+</html>
